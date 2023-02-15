@@ -1,5 +1,5 @@
 {
-	"name": "New model",
+	"name": "PonyModel",
 	"texture": "basic.png",
 	"texture_size": [ 64, 64 ],
 	"parts": [
