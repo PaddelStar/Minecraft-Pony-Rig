@@ -1,7 +1,7 @@
 # Minecraft-Pony-Rig
 
 The model uses MineLittlePony image/skin files as the texture <b>(64x64)</b><br>
-Even though the texture needs to be 64x64, the bottom half is ignored. That means no unique texture for each invidual side (leg, body, wings) for now.
+Even though the texture needs to be 64x64, the bottom half is ignored. That means no unique texture for each individual side (leg, body, wings) for now.
 
 <br>
 
