@@ -1,0 +1,1045 @@
+{
+	"name": "New model",
+	"texture": "basic.png",
+	"texture_size": [ 64, 64 ],
+	"parts": [
+		{
+			"name": "Pony",
+			"position": [ 0, 0, 0 ],
+			"parts": [
+				{
+					"name": "Neck",
+					"position": [ 0, 20, 5.5 ],
+					"parts": [
+						{
+							"name": "NeckFull",
+							"position": [ 0, 0, 0 ],
+							"shapes": [
+								{
+									"type": "plane",
+									"description": "Neck",
+									"texture": "basic.png",
+									"texture_size": [ 64, 64 ],
+									"from": [ -2, 6, -0.5 ],
+									"to": [ 2, 10, -0.5 ],
+									"uv": [ 0, 16 ],
+									"position": [ 0, -6.90373, -2.08552 ],
+									"rotation": [ 15, 0, 0 ],
+									"scale": [ 1, 1, 4 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "NeckExtend",
+									"texture": "basic.png",
+									"texture_size": [ 64, 64 ],
+									"from": [ -2, 6, -0.5 ],
+									"to": [ 2, 7, -0.5 ],
+									"uv": [ 0, 16 ],
+									"position": [ 0, -14.64, -4.16 ],
+									"rotation": [ 15, 0, 0 ],
+									"scale": [ 1, 3, 4 ],
+									"3d": true
+								}
+							]
+						},
+						{
+							"name": "Head",
+							"position": [ 0, 4, 0 ],
+							"parts": [
+								{
+									"name": "Skull",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Skull",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, -4 ],
+											"to": [ 4, 12, 4 ],
+											"uv": [ 8, 8 ],
+											"position": [ -0.12839, -6.49458, 1.89564 ]
+										}
+									]
+								},
+								{
+									"name": "Ears",
+									"position": [ 0, 0, 0 ],
+									"parts": [
+										{
+											"name": "Right Ear",
+											"position": [ 0, -70.10008, 0 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "Right ear",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -1, 7, -1 ],
+													"to": [ 1, 9, 1 ],
+													"uv": [ 14, 18 ],
+													"position": [ -3.12839, 68.6055, -0.10436 ]
+												}
+											]
+										},
+										{
+											"name": "Left Ear",
+											"position": [ 0, -70.10008, 0 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "Left Ear",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -1, 7, -1 ],
+													"to": [ 1, 9, 1 ],
+													"uv": [ 14, 18 ],
+													"position": [ 2.87161, 68.6055, -0.10436 ]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Muzzle",
+									"position": [ 0, 0.001, 0 ],
+									"parts": [
+										{
+											"name": "Upper",
+											"position": [ 0, 0, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Top",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -1, 7.5, -0.5 ],
+													"to": [ 1, 8.5, -0.5 ],
+													"uv": [ 11, 13 ],
+													"position": [ -0.12839, -7.99458, 5.89564 ],
+													"scale": [ 1, 1, 2 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Bottom",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -2, 7.5, -0.5 ],
+													"to": [ 2, 8.5, -0.5 ],
+													"uv": [ 10, 14 ],
+													"position": [ -0.12839, -8.99458, 5.89564 ],
+													"scale": [ 1, 1, 2 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "Down",
+											"position": [ 0, 0, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Down",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -2, 7.5, -0.5 ],
+													"to": [ 2, 8.5, -0.5 ],
+													"uv": [ 10, 15 ],
+													"position": [ -0.12839, -9.99458, 5.89564 ],
+													"scale": [ 1, 1, 2 ],
+													"3d": true
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Hair",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "Top",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 40, 0 ],
+											"position": [ -0.12839, 6.00542, 10.89564 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 1.125, 1.125, 1.125 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 40, 8 ],
+											"position": [ -0.12839, -7.49458, 6.39564 ],
+											"scale": [ 1.125, 1.125, 1.125 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 48, 8 ],
+											"position": [ 4.37161, -7.49458, 1.89564 ],
+											"rotation": [ 0, 90, 0 ],
+											"scale": [ 1.125, 1.125, 1.125 ]
+										},
+										{
+											"type": "plane",
+											"description": "Right",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 32, 8 ],
+											"position": [ -4.62839, -7.49458, 1.89564 ],
+											"rotation": [ 0, -90, 0 ],
+											"scale": [ 1.125, 1.125, 1.125 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 56, 8 ],
+											"position": [ -0.12839, -7.49458, -2.60436 ],
+											"scale": [ 1.125, 1.125, 1.125 ]
+										}
+									]
+								},
+								{
+									"name": "Horn",
+									"position": [ 0, 0, 0 ],
+									"rotation": [ 35, 0, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Horn",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -0.5, 6, -0.5 ],
+											"to": [ 0.5, 10, 0.5 ],
+											"uv": [ 1, 4 ],
+											"position": [ -0.12839, 1.28882, 1.56574 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Body",
+					"position": [ 0, 8, 7 ],
+					"parts": [
+						{
+							"name": "Torso",
+							"position": [ 0, 0, 0 ],
+							"shapes": [
+								{
+									"type": "plane",
+									"description": "Front",
+									"texture": "basic.png",
+									"texture_size": [ 64, 64 ],
+									"from": [ -4, 4, 0 ],
+									"to": [ 4, 12, 0 ],
+									"uv": [ 20, 20 ]
+								},
+								{
+									"type": "plane",
+									"description": "Back",
+									"texture": "basic.png",
+									"texture_size": [ 64, 64 ],
+									"from": [ -4, 6, 0 ],
+									"to": [ 4, 10, 0 ],
+									"uv": [ 36, 16 ],
+									"position": [ 0, -8, -16 ],
+									"rotation": [ 0, 180, 0 ],
+									"scale": [ 1, 2, 1 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Left",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "1",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 28, 20 ],
+											"position": [ 4, 0, -2 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "2",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 24, 0 ],
+											"position": [ 4, 0, -8 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "3",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 4, 0 ],
+											"position": [ 4, 0, -14 ],
+											"rotation": [ 0, 90, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Right",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "1",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 16, 20 ],
+											"position": [ -4, 0, -2 ],
+											"rotation": [ 0, -90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "2",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 24, 0 ],
+											"position": [ -4, 0, -8 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "3",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 4, 0 ],
+											"position": [ -4, 0, -14 ],
+											"rotation": [ 0, 90, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Bottom",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "1",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 6, 0 ],
+											"to": [ 4, 10, 0 ],
+											"uv": [ 28, 16 ],
+											"position": [ 0, 4, -10 ],
+											"rotation": [ 90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "2",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 4, 0 ],
+											"to": [ 4, 12, 0 ],
+											"uv": [ 56, 0 ],
+											"position": [ 0, 4, -16 ],
+											"rotation": [ 90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "3",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 6, 0 ],
+											"to": [ 4, 10, 0 ],
+											"uv": [ 36, 16 ],
+											"position": [ 0, 4, -22 ],
+											"rotation": [ 90, 0, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Top",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "1",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 6, 0 ],
+											"to": [ 4, 10, 0 ],
+											"uv": [ 20, 16 ],
+											"position": [ 0, 12, 6 ],
+											"rotation": [ -90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "2",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -4, 2, 0 ],
+											"to": [ 4, 14, 0 ],
+											"uv": [ 32, 20 ],
+											"position": [ 0, 12, -18 ],
+											"rotation": [ 90, 0, 0 ]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Tail",
+							"position": [ 0, 10.475, -15.35678 ],
+							"parts": [
+								{
+									"name": "Tail Part",
+									"position": [ 0, 1.6379, -4.64448 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "Right",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ -2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ 2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, 1.85535 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, -2.14465 ]
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, 1.87101, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Bottom",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -6.12899, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Tail Part 3/4",
+									"position": [ 0, 1.6379, -4.64448 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "Right",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ -2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Right Half",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 8, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ -2, -14.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ 2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left Half",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 8, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ 2, -14.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, 1.85535 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front Half",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 8, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -14.12899, 1.85535 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, -2.14465 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back Half",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 8, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -14.12899, -2.14465 ]
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, 1.87101, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Bottom",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Tail Part Full",
+									"position": [ 0, 1.6379, -4.64448 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "Right",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ -2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Right Full",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ -2, -18.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ 2, -10.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Left Full",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 36, 0 ],
+											"position": [ 2, -18.12899, -0.14465 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, 1.85535 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front Full",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -18.12899, 1.85535 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -10.12899, -2.14465 ]
+										},
+										{
+											"type": "plane",
+											"description": "Back Full",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 4, 0 ],
+											"to": [ 2, 12, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -18.12899, -2.14465 ]
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, 1.87101, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Bottom",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, 6, 0 ],
+											"to": [ 2, 10, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, -14.12899, 7.85535 ],
+											"rotation": [ -90, 0, 0 ]
+										}
+									]
+								},
+								{
+									"name": "Dock",
+									"position": [ 0, -3.74802, -3.68222 ],
+									"rotation": [ 28, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "Left",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -3, 7, 0 ],
+											"to": [ 3, 9, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 1, -3.05621, -0.69516 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Right",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -3, 7, 0 ],
+											"to": [ 3, 9, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ -1, -3.05621, -0.69516 ],
+											"rotation": [ 0, 90, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -1, 5, 0 ],
+											"to": [ 1, 11, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, 5.94379, 7.30484 ],
+											"rotation": [ -90, 0, 0 ]
+										},
+										{
+											"type": "plane",
+											"description": "Bottom",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -1, 5, 0 ],
+											"to": [ 1, 11, 0 ],
+											"uv": [ 32, 0 ],
+											"position": [ 0, 3.94379, 7.30484 ],
+											"rotation": [ -90, 0, 0 ]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Wings",
+							"position": [ 0, 0, 0 ],
+							"parts": [
+								{
+									"name": "Wings Right",
+									"position": [ -4, 8, -4 ],
+									"parts": [
+										{
+											"name": "Handle Right",
+											"position": [ -1, 0, 0 ],
+											"bend": {
+												"offset": 0,
+												"part": "right",
+												"axis": "y",
+												"invert": true
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Handle",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 2, 0 ],
+													"uv": [ 56, 18 ],
+													"position": [ -1, -3, 0 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 3, 2 ],
+													"texture_mirror": true,
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "TopTip Right",
+											"position": [ -1, 2, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "TopTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -1, 0, 0 ],
+													"to": [ 1, 4, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ 0, 1, -4 ],
+													"rotation": [ 90, 0, 0 ],
+													"texture_mirror": true
+												}
+											]
+										},
+										{
+											"name": "MiddleTip Right",
+											"position": [ -1, 0, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "MiddleTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 6, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ -1, 1, -6 ],
+													"rotation": [ 90, 0, 0 ],
+													"texture_mirror": true
+												}
+											]
+										},
+										{
+											"name": "BottomTip Right",
+											"position": [ -1, -2, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "BottomTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 4, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ -1, 1, -4 ],
+													"rotation": [ 90, 0, 0 ],
+													"texture_mirror": true
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Wings Left",
+									"position": [ 4, 8, -4 ],
+									"parts": [
+										{
+											"name": "Handle Left",
+											"position": [ 1, 0, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Handle",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 2, 0 ],
+													"uv": [ 56, 18 ],
+													"position": [ -1, -3, 0 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 3, 2 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "TopTip Left",
+											"position": [ 1, 2, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "TopTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -1, 0, 0 ],
+													"to": [ 1, 4, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ 0, 1, -4 ],
+													"rotation": [ 90, 0, 0 ]
+												}
+											]
+										},
+										{
+											"name": "MiddleTip Left",
+											"position": [ 1, 0, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "MiddleTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 6, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ -1, 1, -6 ],
+													"rotation": [ 90, 0, 0 ]
+												}
+											]
+										},
+										{
+											"name": "BottomTip Left",
+											"position": [ 1, -2, -2 ],
+											"shapes": [
+												{
+													"type": "block",
+													"description": "BottomTip",
+													"texture": "basic.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0, 0, 0 ],
+													"to": [ 2, 4, 2 ],
+													"uv": [ 58, 20 ],
+													"position": [ -1, 1, -4 ],
+													"rotation": [ 90, 0, 0 ]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Legs",
+					"position": [ 0, 8, 7 ],
+					"parts": [
+						{
+							"name": "Forelegs",
+							"position": [ 0, 4, -3 ],
+							"parts": [
+								{
+									"name": "Right Leg F",
+									"position": [ -2, 0, 0 ],
+									"bend": {
+										"offset": -6,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Right Leg",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, -12, -2 ],
+											"to": [ 2, 0, 2 ],
+											"uv": [ 44, 20 ]
+										}
+									]
+								},
+								{
+									"name": "Left Leg F",
+									"position": [ 2, 0, 0 ],
+									"bend": {
+										"offset": -6,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Left Leg",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, -12, -2 ],
+											"to": [ 2, 0, 2 ],
+											"uv": [ 44, 20 ],
+											"texture_mirror": true
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Backlegs",
+							"position": [ 0, 4, -12 ],
+							"parts": [
+								{
+									"name": "Right Leg B",
+									"position": [ -2, 0, 0 ],
+									"bend": {
+										"offset": -5,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Right Leg",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, -12, -2 ],
+											"to": [ 2, 0, 2 ],
+											"uv": [ 4, 20 ]
+										}
+									]
+								},
+								{
+									"name": "Left Leg B",
+									"position": [ 2, 0, 0 ],
+									"bend": {
+										"offset": -5,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "Left Leg",
+											"texture": "basic.png",
+											"texture_size": [ 64, 64 ],
+											"from": [ -2, -12, -2 ],
+											"to": [ 2, 0, 2 ],
+											"uv": [ 4, 20 ],
+											"texture_mirror": true
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
